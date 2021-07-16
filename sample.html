@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style>
+		body{
+			margin:0;
+			padding:0;
+			background-image: url(image/bg1.jpg);
+			background-size: cover;
+		}
+		.container{
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+	}
+	      .card{
+	      	padding: 60px 40px 50px 40px;
+	      	background: rgb(50,50,50);
+	      	border-radius: 10px;
+	      }
+	      #name{
+	      	width: 200px;
+	        border:none;
+	  		background: transparent;
+	      	border-bottom: 1px solid white;
+	      	padding: 6px;  
+	      	margin-bottom: 20px;
+	      	color: white;
+
+	      }
+	      #button{
+	      		border-radius: 20px;
+	      		background: dodgerblue;
+	      		padding: 10px 20px;	
+	      		margin-top: 20px;
+	      		border:none;
+	      		outline: none;
+	      		color: white;
+	      		margin-left: 60px;
+
+	      }
+	      #button:hover{
+	      	background-color: yellow;
+	      	color: black;
+	      	cursor: pointer;
+	      }
+	      a{
+	      	font-size: 13px;
+	      }
+	      img{
+	      	margin-left: 110px;
+	      	margin-top: -40px;
+	      	position: absolute;
+	      }
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<img src="image/userimage.jpg" height="70px" width="70px">
+		<div class="card">
+			<input type="text" placeholder="Username" id="name"><br>
+			<input type="password" placeholder="password" id="name"><br>
+			<a href="#">Forget password?</a><br>
+			<input type="submit" value="Submit" id="button">
+			
+		</div>
+	</div>
+
+</body>
